@@ -1,0 +1,231 @@
+html{
+  box-sizing: border-box;
+} 
+*{
+  box-sizing: inherit;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  margin: 0;
+  width: 100%;
+  background: #0c111b;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background: #0c111b;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+  
+.nav-items a {
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.nav-items a:hover{
+    color: rgb(31, 199, 106);
+}
+
+.login-link:hover {
+    color:#1f80e0;
+  }
+
+  .right-container {
+    display: block;
+    margin-left: auto;
+  }
+
+  .sub-btn {
+    background: #1f80e0;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 10px;
+  }
+  
+  .login-link {
+    color: #fff;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .sub-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(248, 242, 242); /* Fallback color */
+    background-color: rgba(238, 226, 226, 0.695); /* Black w/ opacity */
+  }
+
+  .modal-content {
+    text-align: center;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    background-color: rgba(240, 232, 232, 0.4);
+    border: 2px solid #393838;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  .close {
+    color: #1d1c1c;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: rgb(241, 11, 11);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #username, #password {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+
+
+
+ /* body section  */
+
+.section-body{
+    
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.section-body h4{
+    font-size: large;
+}
+
+.vertical-nav
+{
+    padding: 20px 20px;
+    background-color: rgb(169, 232, 235);
+}
+
+.section-body ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+    width: 18%;
+    background-color: #d6e4f0;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+  }
+  
+  .section-body  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .section-body li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .section-body li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+/* 
+  section-2 */
+
+  .image-holder{
+    border: 1px solid #ccc;
+    background-color: #d6e4f0;
+    transition-duration:200ms;
+    transition-timing-function: ease-out;
+  }
+  
+  .image-holder:hover {
+    border: 1px solid #777;
+    transform: scale(1.05,1.05);
+  }
+  
+.gallery{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; 
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+  div.desc {
+    text-align: center;
+    width: 100%;
+  }
+
+ .desc i{
+    float: left !important;
+    padding-left: 10px;
+ }
+
+ .desc button{
+    float:right !important;
+    margin-right: 10px;
+    margin-bottom: 5px;
+ }
+
+.gallery img{
+    height: 250px;
+    width:200px;
+}
+
+/* .btn-back
+{
+    display: block;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    font-size:20px;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    padding:5px;
+}
+
+.btn-back:hover{
+    background-color: rgb(31, 199, 106)ue;
+} */

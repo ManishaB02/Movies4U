@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="about_style.css" />
+<script src="login.js" async></script>
+</head>
+<body>
+  <nav class="navbar">
+    <!-- <img src="images/logo.png" class="brand-logo" alt="" /> -->
+    <ul class="nav-links">
+      <li class="nav-items"><a href="/index.html">Movies4U</a></li>
+      <li class="nav-items"><a href="/books.html">E-Books</a></li>
+      <!-- <li class="nav-items"><a href="a">Sports</a></li> -->
+      <li class="nav-items"><a href="/About.html">About</a></li>
+    </ul>
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button class="sub-btn" onclick="login()">Login</button>
+      </div>
+    </div>
+    <div class="right-container">
+      <button class="sub-btn" id="btn-subscribe">subscribe</button>
+      <a href="#" class="login-link" id="loginBtn">Login</a>
+    </div>
+  </nav>
+
+<div class="about-section">
+  <h1 class="htag">About Us </h1>
+  <p>Movies4U provides easy interface to its customer for streamming movies, shows or viewing e-books online.</p>
+  <p>For any query you can send us email or call us 
+      on Week days. Thankyou for your patience and hope you had a great time here.
+  </p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="/images/p1.jfif" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Manisha</h2>
+        <p class="title">CEO & Founder</p>
+        <p>“Be yourself! everyone else is already taken.”</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <center><img src="/images/p2.jfif" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Abc</h2>
+        <p class="title">Art Director</p>
+        <p>“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”</p>
+        <p>Abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <center><img src="/images/p3.jfif" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Xyz</h2>
+        <p class="title">Designer</p>
+        <p>“A room without books is like a body without a soul.”</p>
+        <p>xyz@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
